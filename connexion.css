@@ -1,0 +1,122 @@
+body.connexion{
+   background-image: url("img/connexionbg.jpg");
+   background-size: cover;
+   margin:0;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+ }
+ body.inscription{
+   background-image: url("img/connexionbg.jpg");
+   background-position: center;
+   margin: 0;
+   background-size: 1800px 2000px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   align-items: center;
+ }
+ body.mdp{
+   background-image: url("img/connexionbg.jpg");
+   background-size: cover;
+   margin:0;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+ }
+ .formcnx{
+   color: white;
+   margin-top:160px;
+   width:300px;
+   height:440px;
+   border-radius:8px;
+   text-shadow: 1px 1px 2px white;
+   max-height: 250px;
+   padding:10px 40px;
+   font-family:'calibri',sans-serif;
+}
+.forminscription{
+   color: white;
+   width:400px;
+   border-radius:8px;
+   text-shadow: 1px 1px 2px white;
+   padding:10px 40px;
+   font-family:'calibri',sans-serif;
+   display: flex;
+   flex-direction: column;
+   flex-flow: column-wrap;
+   justify-content: space-between;
+}
+.formmdp{
+   color: white;
+   margin-top:160px;
+   width:300px;
+   height:440px;
+   border-radius:8px;
+   text-shadow: 1px 1px 2px white;
+   max-height: 250px;
+   padding:10px 40px;
+   font-family:'calibri',sans-serif;
+}
+.formmdp input{
+ width: 250px;
+}
+.formmdp button{
+  padding: 10px;
+  font-size: 15px;
+  cursor: crosshair;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #003352;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px white;
+}
+input{
+	 border-radius:8px;
+	 width: 200px;
+}
+button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: crosshair;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #003352;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px white;
+}
+
+button:active {
+  background-color: #003352;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.liens{
+	padding-top: 15px;
+}
+a:link {
+    color: white;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+a:visited{
+    color: white;
+}
+.inline{
+	display: flex;
+	justify-content: flex-start;
+	max-width: 200px;
+}
+.hobbies{
+	display: flex;
+	justify-content: flex-start;
+	
+}

@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Inscription</title>
+   <link rel="stylesheet" href="connexion.css"> 
+</head>
+<body class="inscription">
+ <form class="forminscription" action="connexion.html">
+    <h1>S'INSCRIRE</h1>
+    <label for="text"><b>Identifiant</b></label>
+    <input type="text" placeholder="Tapez Votre identifiant" name="identifiant" required>
+    <label for="password"><b>Mot de passe</b></label>
+    <input type="password" placeholder="Tapez Votre Mot de Passe" name="psw" required>
+    <label for="psw-repeat"><b>Confirmation du Mot De Passe</b></label>
+    <input type="password" placeholder="Confirmez le mot de passe" name="psw-repeat" required>
+    <label for="anniversaire"><b>Date de Naissance (facultatif)</b></label>
+    <input type="date" name="anniversaire">  
+    <label for="Nom"><b>Nom (facultatif)</b></label>
+    <input type="text" placeholder="Votre Nom" name="nom">
+    <label for="Prenom"><b>Prenom (facultatif)</b></label>
+    <input type="text" placeholder="Votre Prenom" name="prenom">
+    <label for="email"><b>Votre adresse mail</b></label>
+    <input type="email" placeholder="Votre Adresse mail" name="user_email" required>
+    <section class="inline">
+        <label for="Prenom"><b>Sexe</b></label>
+        <input type="radio" id="Homme" name="sexe" value="male" required>
+        <label for="Homme">Homme</label>
+        <input type="radio" id="Femme" name="sexe" value="female">
+        <label for="Femme">Femme</label>
+    </section>
+    <label>Votre Niveau d'étude</label>
+      <select required>
+         <option value="">Veyuillez precisez votre niveau d'étude</option>
+         <option value = "1">Niveau I</option>
+         <option value = "2">Niveau II</option>
+         <option value = "3">Niveau III </option>
+         <option value = "4">Niveau IV </option>
+         <option value = "5">Niveau V </option>
+     </select>
+    <label for="phone">Numéro de Telephone: (facultatif)</label>
+    <input type="tel" id="phone" name="phone" placeholder="Votre Numéro de Telephone">
+    <label for="phone">Présentez vous (facultatif)</label>
+    <textarea name="comment" form="usrform">Parlez nous de vous...</textarea>
+     <label for="phone">Cochez vos hobbies (facultatif)</label>
+    <section class="hobbies">
+        <input type="checkbox" name="hobbie1" value="Sport" /> Sport
+        <input type="checkbox" name="hobbie2" value="Musique" /> Musique
+        <input type="checkbox" name="hobbie3" value="JeuxVideos" /> Jeux Videos
+        <input type="checkbox" name="hobbie5" value="Cinema" /> Cinema
+        <input type="checkbox" name="hobbie6" value="Photographie" /> Photographie
+    </section>
+    <br>
+    <button type="submit" class="registerbtn" value="connexion">S'INSCRIRE</button>
+    <p>Deja inscrit ? <a href="connexion.html">Connectez vous</a>.</p>
+</form>
+</body>
+</html>
+
