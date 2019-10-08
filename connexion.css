@@ -36,6 +36,10 @@ body.connexion{
    max-height: 250px;
    padding:10px 40px;
    font-family:'calibri',sans-serif;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 .forminscription{
    color: white;
@@ -48,6 +52,10 @@ body.connexion{
    flex-direction: column;
    flex-flow: column-wrap;
    justify-content: space-between;
+   -webkit-transform: scale(1);
+   transform: scale(1);
+   -webkit-transition: .5s ease-in-out;
+   transition: .5s ease-in-out;
 }
 .formmdp{
    color: white;
@@ -58,6 +66,10 @@ body.connexion{
    max-height: 250px;
    padding:10px 40px;
    font-family:'calibri',sans-serif;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 .formmdp input{
  width: 250px;
