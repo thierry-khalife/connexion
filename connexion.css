@@ -38,8 +38,8 @@ body.connexion{
    font-family:'calibri',sans-serif;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+   transition: 2s ease-in-out;
 }
 .forminscription{
    color: white;
@@ -54,8 +54,8 @@ body.connexion{
    justify-content: space-between;
    -webkit-transform: scale(1);
    transform: scale(1);
-   -webkit-transition: .5s ease-in-out;
-   transition: .5s ease-in-out;
+   -webkit-transition: 2s ease-in-out;
+   transition: 2s ease-in-out;
 }
 .formmdp{
    color: white;
@@ -68,8 +68,8 @@ body.connexion{
    font-family:'calibri',sans-serif;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+   transition: 2s ease-in-out;
 }
 .formmdp input{
  width: 250px;
